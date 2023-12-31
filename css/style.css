@@ -5578,6 +5578,10 @@ html:not(.tablet):not(.mobile) .thumbnail-indigo:hover .thumbnail-indigo-caption
 	color: #fff;
 }
 
+.foter-redes .link-default {
+	color: #007bff;
+}
+
 .foter-social-links .link-default:hover {
 	color: #007bff;
 }
