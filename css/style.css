@@ -2563,7 +2563,7 @@ textarea.form-input {
 	padding-right: 150px;
 	margin-bottom: 4px;
 	font-size: 14px;
-	color: #aeb1be;
+	color: #007bff;
 	cursor: pointer;
 }
 
@@ -5578,12 +5578,16 @@ html:not(.tablet):not(.mobile) .thumbnail-indigo:hover .thumbnail-indigo-caption
 	color: #fff;
 }
 
-.foter-redes .link-default {
+.foter-social-links .link-default:hover {
 	color: #007bff;
 }
 
-.foter-social-links .link-default:hover {
+.rede-time .novi-icone {
 	color: #007bff;
+}
+
+.rede-time .novi-icone:hover {
+	color: #fff;
 }
 
 .rights {
@@ -7080,7 +7084,7 @@ html:not(.tablet):not(.mobile) .profile-minimal-caption {
 	flex-grow: 1;
 }
 
-.comment-classic-name {
+.comment-classic-nome {
 	color: #007bff;
 }
 
@@ -8805,7 +8809,7 @@ html:not(.lt-ie10) .not-animated {
 }
 
 .fadeIn {
-	animation-name: fadeIn;
+	animation-nome: fadeIn;
 }
 
 @keyframes fadeInUp {
@@ -8820,7 +8824,7 @@ html:not(.lt-ie10) .not-animated {
 }
 
 .fadeInUp {
-	animation-name: fadeInUp;
+	animation-nome: fadeInUp;
 }
 
 @keyframes fadeInDown {
@@ -8835,7 +8839,7 @@ html:not(.lt-ie10) .not-animated {
 }
 
 .fadeInDown {
-	animation-name: fadeInDown;
+	animation-nome: fadeInDown;
 }
 
 @keyframes fadeInLeft {
@@ -8850,7 +8854,7 @@ html:not(.lt-ie10) .not-animated {
 }
 
 .fadeInLeft {
-	animation-name: fadeInLeft;
+	animation-nome: fadeInLeft;
 }
 
 @keyframes fadeInRight {
@@ -8865,7 +8869,7 @@ html:not(.lt-ie10) .not-animated {
 }
 
 .fadeInRight {
-	animation-name: fadeInRight;
+	animation-nome: fadeInRight;
 }
 
 @keyframes fadeOut {
@@ -8878,7 +8882,7 @@ html:not(.lt-ie10) .not-animated {
 }
 
 .fadeOut {
-	animation-name: fadeOut;
+	animation-nome: fadeOut;
 }
 
 @keyframes slideInDown {
@@ -8892,7 +8896,7 @@ html:not(.lt-ie10) .not-animated {
 }
 
 .slideInDown {
-	animation-name: slideInDown;
+	animation-nome: slideInDown;
 }
 
 @keyframes slideInUp {
@@ -8906,7 +8910,7 @@ html:not(.lt-ie10) .not-animated {
 }
 
 .slideInUp {
-	animation-name: slideInUp;
+	animation-nome: slideInUp;
 }
 
 @keyframes slideInLeft {
@@ -8920,7 +8924,7 @@ html:not(.lt-ie10) .not-animated {
 }
 
 .slideInLeft {
-	animation-name: slideInLeft;
+	animation-nome: slideInLeft;
 }
 
 @keyframes slideInRight {
@@ -8934,7 +8938,7 @@ html:not(.lt-ie10) .not-animated {
 }
 
 .slideInRight {
-	animation-name: slideInRight;
+	animation-nome: slideInRight;
 }
 
 @keyframes slideOutDown {
@@ -8948,7 +8952,7 @@ html:not(.lt-ie10) .not-animated {
 }
 
 .slideOutDown {
-	animation-name: slideOutDown;
+	animation-nome: slideOutDown;
 }
 
 @keyframes scaleInY {
@@ -8978,7 +8982,7 @@ html:not(.lt-ie10) .not-animated {
 .scaleFadeIn {
 	display: flex;
 	overflow: hidden;
-	animation-name: scaleFadeIn;
+	animation-nome: scaleFadeIn;
 	animation-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 
@@ -9002,7 +9006,7 @@ html:not(.lt-ie10) .not-animated {
 }
 
 .scaleInVertical {
-	animation-name: scaleInVertical;
+	animation-nome: scaleInVertical;
 }
 
 @keyframes fadeInLeftSmall {
@@ -9017,7 +9021,7 @@ html:not(.lt-ie10) .not-animated {
 }
 
 .fadeInLeftSmall {
-	animation-name: fadeInLeftSmall;
+	animation-nome: fadeInLeftSmall;
 }
 
 @keyframes fadeInUpSmall {
@@ -9032,7 +9036,7 @@ html:not(.lt-ie10) .not-animated {
 }
 
 .fadeInUpSmall {
-	animation-name: fadeInUpSmall;
+	animation-nome: fadeInUpSmall;
 }
 
 @keyframes fadeSlideInDown {
@@ -9050,7 +9054,7 @@ html:not(.lt-ie10) .not-animated {
 }
 
 .fadeSlideInDown {
-	animation-name: fadeSlideInDown;
+	animation-nome: fadeSlideInDown;
 }
 
 @keyframes fadeSlideInUp {
@@ -9068,7 +9072,7 @@ html:not(.lt-ie10) .not-animated {
 }
 
 .fadeSlideInUp {
-	animation-name: fadeSlideInUp;
+	animation-nome: fadeSlideInUp;
 }
 
 .wow {
@@ -9172,7 +9176,7 @@ html:not(.lt-ie10) .not-animated {
 	background: #007bff;
 	margin-top: 0;
 	margin-left: -100vw;
-	animation-name: bounce_loadingProgressG;
+	animation-nome: bounce_loadingProgressG;
 	animation-duration: 2.5s;
 	animation-iteration-count: infinite;
 	animation-timing-function: linear;
@@ -12724,9 +12728,6 @@ button.swiper-pagination-bullet {
 	height: 200px;
 }
 
-.google-map img {
-	max-width: none !important;
-}
 
 @media (min-width: 576px) {
 	.google-map {
@@ -14590,7 +14591,7 @@ yx-axis
 }
 
 .owl-carousel .fadeOut {
-	animation-name: fadeOut;
+	animation-nome: fadeOut;
 }
 
 @keyframes fadeOut {
@@ -17505,7 +17506,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 	border: 0;
 }
 
-.d3-chart .c3-tooltip-container .name {
+.d3-chart .c3-tooltip-container .nome {
 	border-left: 0;
 }
 
@@ -17679,8 +17680,8 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 
 .rd-range:hover .rd-range__pointer:before {
 	transform: scale(1);
-	-webkit-animation-name: pulse;
-	animation-name: pulse;
+	-webkit-animation-nome: pulse;
+	animation-nome: pulse;
 }
 
 .rd-range__pointer {
